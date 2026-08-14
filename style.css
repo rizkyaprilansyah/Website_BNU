@@ -515,6 +515,26 @@ body {
     /* Highlight role with corporate orange on hover */
 }
 
+/* Full Team Photo */
+.full-team-container {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-team-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 40px;
+    object-fit: cover;
+    max-height: 500px;
+    box-shadow: 0 15px 35px rgba(0, 94, 106, 0.08);
+}
+
 /* Mobile responsiveness adaptations */
 @media (max-width: 768px) {
     .struktur {
@@ -1217,8 +1237,8 @@ body {
 }
 
 .event-card--live {
-    border-color: 1px solid #e2e8f0;
-    background: #fff5f5;
+    border-color: #e2e8f0;
+    background: #ffffff;
 }
 
 .event-card-top {

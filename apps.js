@@ -11,17 +11,21 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-desc": "Menjadi Pusat Pembelajaran & Pengembangan Keunggulan SDM BNI untuk menciptakan Insan BNI yang berintegritas, terampil, dan profesional.",
             "hero-btn": "Selengkapnya",
             "about-title": "<span>Tentang</span> Kami",
-            "about-desc": "BNI Corporate University berkomitmen untuk mengembangkan kompetensi terbaik Insan BNI melalui program pembelajaran terstruktur, inovatif, dan berstandar internasional demi mencetak pemimpin perbankan masa depan.",
+            "about-desc": "Operation & Support Banking Academy Officer berpartisipasi aktif dalam penyelenggaraan pembelajaran dengan berbagai metode pembelajaran (in-class, e-learning, social learning, dan lain-lain), baik di Kantor Pusat maupun Kantor Wilayah.",
             "about-visi-title": "Visi Kami",
-            "about-visi-text": "Menjadi pusat pengembangan SDM perbankan kelas dunia yang menghasilkan pemimpin berintegritas dan profesional.",
+            "about-visi-text": "Menjadi entitas pembelajaran kelas dunia untuk melahirkan pemimpin holistic dan profesional lembaga keuangan BNI yang unggul.",
             "about-misi-title": "Misi Kami",
-            "about-misi-text": "Menyelenggarakan program pembelajaran inovatif, berbasis teknologi modern, dan mendukung pencapaian strategi bisnis BNI.",
+            "about-misi-text": "1. Menyediakan sistem dan solusi pembelajaran kolaboratif yang mampu mendukung tujuan perusahaan<br>2. Membangun kemitraan sinergis yang profesional dan berintegritas<br>3. Berperan dalam mencerdaskan masyarakat.",
             "about-stat-title-1": "Alumni Terlatih",
             "about-stat-title-2": "Pelatihan terlaksana",
             "about-stat-title-3": "Penghargaan Global",
             "team-title": "<span>Tim</span> Kami",
-            "team-subtitle": "Orang-orang profesional dan berintegritas tinggi di balik pengembangan kapasitas SDM BNI.",
+            "team-subtitle": "Orang-orang profesional dan berintegritas tinggi di balik BNU Surabaya.",
             "team-role-leader": "Team Leader",
+            "team-role-bina": "Bina",
+            "team-role-tad": "TAD",
+            "team-role-security": "Security",
+            "team-role-it": "IT & Jaringan",
             "facilities-title": "<span>Fasilitas</span> Kami",
             "facilities-desc": "Dalam menjalankan program pembelajaran dan pengembangan, BNI Corporate University didukung oleh berbagai fasilitas modern kelas dunia.",
             "slide-tag-1": "Learning Environment",
@@ -83,6 +87,10 @@ document.addEventListener("DOMContentLoaded", () => {
             "team-title": "<span>Our</span> Team",
             "team-subtitle": "Professional and high-integrity people behind the capacity development of BNI HR.",
             "team-role-leader": "Team Leader",
+            "team-role-bina": "Bina",
+            "team-role-tad": "TAD",
+            "team-role-security": "Security",
+            "team-role-it": "IT & Network",
             "facilities-title": "Our <span>Facilities</span>",
             "facilities-desc": "In carrying out learning and development programs, BNI Corporate University is supported by various world-class modern facilities.",
             "slide-tag-1": "Learning Environment",
@@ -139,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-        const htmlKeys = ["about-title", "team-title", "hero-title", "facilities-title", "agenda-title"];
+        const htmlKeys = ["about-title", "team-title", "hero-title", "facilities-title", "agenda-title", "about-misi-text", "about-visi-text"];
         const elements = document.querySelectorAll("[data-translate]");
         elements.forEach(element => {
             const key = element.getAttribute("data-translate");
