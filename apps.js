@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "nav-facilities": "Fasilitas",
             "nav-gallery": "Agenda Pelatihan",
             "nav-location": "Lokasi",
-            "hero-title": "Selamat Datang di <span>BNI CORPORATE UNIVERSITY</span>",
+            "hero-title": "Selamat Datang di <span>BNI UNIVERSITY SURABAYA</span>",
             "hero-desc": "Menjadi Pusat Pembelajaran & Pengembangan Keunggulan SDM BNI untuk menciptakan Insan BNI yang berintegritas, terampil, dan profesional.",
             "hero-btn": "Selengkapnya",
             "about-title": "<span>Tentang</span> Kami",
